@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+  int a,b;
+  printf("enter first integer");
+  scanf("%d",&a);
+  printf("enter second integer");
+  scanf("%d",&b);
+
+  if(a>b){
+    printf("larger element is %d \n",a);
+  }
+  else{
+    printf("larger number is %d \n",b);
+  }
+  return 0;
+}
